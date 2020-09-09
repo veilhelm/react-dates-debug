@@ -1,12 +1,16 @@
+import 'react-dates/initialize';
+import 'react-dates/lib/css/_datepicker.css'; 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Dates from './datesPractice';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Dates></Dates>
   </React.StrictMode>,
   document.getElementById('root')
 );
